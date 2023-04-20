@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Information Form</title>
+	<link rel="stylesheet" href="test.css">
+</head>
+<body>
+	<h1>Student Information Form</h1>
+	<form method="post" action="test.php">
+		<label for="fname">First Name:</label>
+		<input type="text" required id="fname">
+
+		<label for="lname">Last Name:</label>
+		<input type="text" required id="lname">
+
+        <label for="regno">Reg Number:</label>
+		<input type="text" required id="regno">
+
+		<label for="email">Email Address:</label>
+		<input type="email" required id="email">
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" required id="phone">
+
+		<label for="addresss">Address:</label>
+		<input type="text" required id="addresss">
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" required id="dob">
+
+		<label for="gender">Gender:</label>
+		<select id="gender" name="gender" required>
+			<option value="">Select gender</option>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="other">Other</option>
+		</select>
+
+		<label for="course">Course of Study:</label>
+		<input type="text" required id="course">
+
+		<button type="submit" id="submit-btn">Submit</button>
+		<button type="reset" id="reset-btn">Clear</button>
+	</form>
+
+	<script src="test.js"></script>
+</body>
+</html>
